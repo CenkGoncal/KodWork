@@ -1,0 +1,40 @@
+import {StyleSheet} from "react-native";
+
+export default StyleSheet.create({
+    container:{
+        flex:1
+    },
+    center:{
+        justifyContent:"center", 
+        alignContent:"center",
+        flex:1
+    },
+    pageNumber:{
+        color:"white",
+        textAlign:"right",
+        fontWeight:"bold",
+        fontSize:20,
+        backgroundColor:"red"
+    },
+    header:{
+        flexDirection:"row",
+        backgroundColor:"tomato",
+        alignItems:"center",
+        justifyContent:"center",
+    },
+    paginationContainer:{
+        flexDirection:"row",
+        paddingRight:10,
+    },
+    arrow:{
+        marginLeft:10
+    },
+    logo:{
+        marginRight:10,
+        alignSelf:"center",
+        fontWeight:"bold",
+        fontSize:20,
+        color:"white",
+        flex:1
+    }
+})
